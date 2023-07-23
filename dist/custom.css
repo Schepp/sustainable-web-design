@@ -1,0 +1,79 @@
+:root {
+  --r-main-font-size: 24px;
+  --r-link-color: #29a256;
+  --r-link-color-dark: #2c8f51;
+  --r-link-color-hover: #21ad55;
+  --r-selection-background-color: #87ffb3;
+  --r-main-font: "Sarabun", Helvetica, sans-serif;
+  --r-heading-font: "Vollkorn", serif;
+}
+
+.reveal img {
+  max-height: 40vh;
+  border-radius: 4px;
+}
+
+.reveal .r-hstack,
+.reveal .v-hstack {
+  gap: 2vmin;
+}
+
+.reveal .r-hstack > * {
+  align-self: start;
+}
+
+.reveal .r-hstack img,
+.reveal .r-hstack video {
+  max-width: 100%;
+}
+
+.reveal blockquote {
+  background-image: linear-gradient(to bottom, var(--r-background-color), var(--r-background-color)),
+  linear-gradient(
+          131deg in oklab,
+          oklch(66% 0.5 155) -3% -3%, oklch(90% 0.50 170) 100%
+  );
+  background-clip: padding-box, border-box;
+  border: solid 4px transparent;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0;
+  padding: 1em;
+  position: relative;
+  box-shadow: none;
+  font-family: "Vollkorn", serif;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.reveal blockquote::before {
+  background-color: var(--r-background-color);
+  bottom: -10%;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: -10%;
+  transform: rotate(-15deg) skew(5deg);
+}
+
+.reveal blockquote p {
+  text-wrap: balance;
+}
+
+.reveal blockquote + p:has(a) {
+  display: block;
+  width: 70%;
+  margin: var(--r-block-margin) auto;
+  font-style: italic;
+  text-align: right;
+}
+
+.reveal blockquote + p:has(a) a::before {
+  content: "- ";
+  display: inline;
+}
+
+.reveal blockquote > * {
+  position: relative;
+  z-index: 1;
+}

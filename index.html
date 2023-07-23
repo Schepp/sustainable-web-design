@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="robots" content="noindex,follow,noarchive,noodp">
+
+  <title>Sustainable Web Design</title>
+
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/white.css">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&family=Vollkorn:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="dist/custom.css">
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown="start.md"
+             data-separator="^-----\r?\n"
+             data-separator-vertical="^---\r?\n"
+             data-separator-notes="^Note:"
+             data-charset="utf-8">
+      <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+      -->
+    </section>
+    <section data-markdown="why.md"
+             data-separator="^-----\r?\n"
+             data-separator-vertical="^---\r?\n"
+             data-separator-notes="^Note:"
+             data-charset="utf-8">
+      <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+      -->
+    </section>
+    <section data-markdown="what-is-sustainable-webdesign.md"
+             data-separator="^-----\r?\n"
+             data-separator-vertical="^---\r?\n"
+             data-separator-notes="^Note:"
+             data-charset="utf-8">
+      <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+      -->
+    </section>
+    <section data-markdown="measuring.md"
+             data-separator="^-----\r?\n"
+             data-separator-vertical="^---\r?\n"
+             data-separator-notes="^Note:"
+             data-charset="utf-8">
+      <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+      -->
+    </section>
+    <section data-markdown="design.md"
+             data-separator="^-----\r?\n"
+             data-separator-vertical="^---\r?\n"
+             data-separator-notes="^Note:"
+             data-charset="utf-8">
+      <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+      -->
+    </section>
+    <section data-markdown="frontend.md"
+             data-separator="^-----\r?\n"
+             data-separator-vertical="^---\r?\n"
+             data-separator-notes="^Note:"
+             data-charset="utf-8">
+      <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+      -->
+    </section>
+    <section data-markdown="hosting.md"
+             data-separator="^-----\r?\n"
+             data-separator-vertical="^---\r?\n"
+             data-separator-notes="^Note:"
+             data-charset="utf-8">
+      <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+      -->
+    </section>
+    <section data-markdown="development.md"
+             data-separator="^-----\r?\n"
+             data-separator-vertical="^---\r?\n"
+             data-separator-notes="^Note:"
+             data-charset="utf-8">
+      <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+      -->
+    </section>
+    <section data-markdown="activism.md"
+             data-separator="^-----\r?\n"
+             data-separator-vertical="^---\r?\n"
+             data-separator-notes="^Note:"
+             data-charset="utf-8">
+      <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+      -->
+    </section>
+    <section data-markdown="end.md"
+             data-separator="^-----\r?\n"
+             data-separator-vertical="^---\r?\n"
+             data-separator-notes="^Note:"
+             data-charset="utf-8">
+      <!--
+          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+      -->
+    </section>
+  </div>
+</div>
+
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script src="plugin/chart/chart.min.js"></script>
+<script src="plugin/chart/chart.js"></script>
+<script>
+  // More info about initialization & config:
+  // - https://revealjs.com/initialization/
+  // - https://revealjs.com/config/
+  Reveal.initialize({
+    hash: true,
+
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [
+      RevealMarkdown,
+      RevealHighlight,
+      RevealNotes,
+      RevealChart
+    ],
+    chart: {
+      defaults: {
+        color: '#000', // color of labels
+        scale: {
+          beginAtZero: true,
+          ticks: {
+            stepSize: 1
+          },
+          grid: {
+            color: "lightgray"
+          }, // color of grid lines
+        },
+        title: {
+          display: true
+        }
+      },
+      line: {
+        borderColor: [
+          "#92253b",
+          "#4aa9d5",
+          "#7eab45"
+        ],
+        borderDash: [
+          [0, 0],
+          [0, 0]
+        ]
+      },
+      bar: {
+        backgroundColor: [
+          "#92253b",
+          "#4aa9d5",
+          "#7eab45"
+        ]
+      },
+      pie: {
+        backgroundColor: [[
+          "#7eab45",
+          "#92253b",
+          "#4aa9d5"
+        ]]
+      },
+    },
+  });
+</script>
+<script>
+  (() => {
+    const update = () => {
+      const t=new Date();
+      const re=t.toLocaleString('de-DE');
+      const re2 = re.slice(11, 16);
+
+      document.querySelectorAll('.time').forEach((elem) => {
+        elem.textContent = re2;
+      });
+    }
+
+    window.setInterval(update, 1000);
+
+    update();
+  })();
+</script>
+<script src="js/tsparticles.bundle.min.js"></script>
+<script>
+  (async () => {
+    const container = await tsParticles
+      .load("tsparticles", {
+      "autoPlay": false,
+      "fullScreen": {
+        "zIndex": 1
+      },
+      "emitters": {
+        "position": {
+          "x": 50,
+          "y": 100
+        },
+        "rate": {
+          "quantity": 5,
+          "delay": 0.15
+        }
+      },
+      "particles": {
+        "color": {
+          "value": [
+            "#1E00FF",
+            "#FF0061",
+            "#E1FF00",
+            "#00FF9E"
+          ]
+        },
+        "move": {
+          "decay": 0.05,
+          "direction": "top",
+          "enable": true,
+          "gravity": {
+            "enable": true
+          },
+          "outModes": {
+            "top": "none",
+            "default": "destroy"
+          },
+          "speed": {
+            "min": 100,
+            "max": 200
+          }
+        },
+        "number": {
+          "value": 0
+        },
+        "opacity": {
+          "value": 1
+        },
+        "rotate": {
+          "value": {
+            "min": 0,
+            "max": 360
+          },
+          "direction": "random",
+          "animation": {
+            "enable": true,
+            "speed": 30
+          }
+        },
+        "tilt": {
+          "direction": "random",
+          "enable": true,
+          "value": {
+            "min": 0,
+            "max": 360
+          },
+          "animation": {
+            "enable": true,
+            "speed": 30
+          }
+        },
+        "size": {
+          "value": 10,
+          "animation": {
+            "enable": true,
+            "startValue": "min",
+            "count": 1,
+            "speed": 16,
+            "sync": true
+          }
+        },
+        "roll": {
+          "darken": {
+            "enable": true,
+            "value": 25
+          },
+          "enlighten": {
+            "enable": true,
+            "value": 25
+          },
+          "enable": true,
+          "speed": {
+            "min": 5,
+            "max": 15
+          }
+        },
+        "wobble": {
+          "distance": 30,
+          "enable": true,
+          "speed": {
+            "min": -7,
+            "max": 7
+          }
+        },
+        "shape": {
+          "type": [
+            "circle",
+            "square"
+          ],
+          "options": {}
+        }
+      },
+      "responsive": [
+        {
+          "maxWidth": 1024,
+          "options": {
+            "particles": {
+              "move": {
+                "speed": {
+                  "min": 33,
+                  "max": 66
+                }
+              }
+            }
+          }
+        }
+      ]
+    });
+
+    Reveal.addEventListener('ready', function(){
+      Reveal.addEventListener('slidechanged', function(){
+        if (Reveal.getCurrentSlide().querySelector(".particles")) {
+          container.refresh();
+          container.play();
+        } else {
+          container.stop();
+        }
+      });
+    });
+  })();
+</script>
+</body>
+</html>
