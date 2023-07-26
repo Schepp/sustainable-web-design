@@ -19,7 +19,6 @@
 ---
 
 > Because OLEDs prefer darker images, **they are less efficient at displaying white images**. However, the white images an OLED can display are of higher quality and brightness, but in doing so, this requires more energy consumption than LCD. <br><br>
-> In the marketplace, for example, **a laptop with an OLED display** using high-white content like typical webpage browsing, Microsoft Office work, and more, **will typically have a six-to-seven-hour battery life whereas a traditional LCD display will have a 10-to-11-hour battery life**.
 
 [Battery Power Online](https://www.batterypoweronline.com/news/oled-displays-impact-on-battery-life-for-consumer-tech-devices/)
 
@@ -32,6 +31,8 @@
 [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_CRT,_LCD,_plasma,_and_OLED_displays#:~:text=OLED%20displays%20use%2040%25%20of,image%20compared%20to%20an%20LCD.) / [Ars Technica](https://arstechnica.com/gadgets/2009/08/this-september-oled-no-longer-three-to-five-years-away/)
 
 ---
+
+### OLEDs love Dark Mode
 
 ![](./images/Google%20Maps%20Darkmode.png)
 
@@ -58,6 +59,8 @@ Increased OLED use is the reason we have more and more "always on" lock screens.
 ### But...
 
 ---
+
+### Computers still use LCDs
 
 > OLED penetration to reach 14% of mobile PC displays in 2028
 
@@ -121,28 +124,20 @@ With OLED screens, **blue color consumes up to 24% more energy** than green or r
 
 ---
 
+### Use energy efficient Color Palettes
 
-<div class="r-vstack"><div class="r-hstack">
+<div class="r-vstack" style="gap: 0"><div class="r-hstack" style="gap: 0">
 
-![](./images/color_palette_flowerblossom.png) <!-- .element: style="width: auto; height: 20vh; aspect-ratio: 16/9; object-fit: cover; outline: 20px solid var(--r-background-color); outline-offset: -10px;" -->
+![](./images/color_palette_flowerblossom.png) <!-- .element: style="width: auto; height: 20vh; margin: 0; aspect-ratio: 16/9; object-fit: cover; outline: 20px solid var(--r-background-color); outline-offset: -10px;" -->
 
-![](./images/color_palette_lush.png) <!-- .element: style="width: auto; height: 20vh; aspect-ratio: 16/9; object-fit: cover; outline: 20px solid var(--r-background-color); outline-offset: -10px;" -->
+![](./images/color_palette_lush.png) <!-- .element: style="width: auto; height: 20vh; margin: 0; aspect-ratio: 16/9; object-fit: cover; outline: 20px solid var(--r-background-color); outline-offset: -10px;" -->
 
-</div><div class="r-hstack">
+</div><div class="r-hstack" style="gap: 0">
 
-![](./images/color_palette_passionfruit.png) <!-- .element: style="width: auto; height: 20vh; aspect-ratio: 16/9; object-fit: cover; outline: 20px solid var(--r-background-color); outline-offset: -10px;" -->
+![](./images/color_palette_passionfruit.png) <!-- .element: style="width: auto; height: 20vh; margin: 0; aspect-ratio: 16/9; object-fit: cover; outline: 20px solid var(--r-background-color); outline-offset: -10px;" -->
 
-![](./images/color_palette_summertime.png) <!-- .element: style="width: auto; height: 20vh; aspect-ratio: 16/9; object-fit: cover; outline: 20px solid var(--r-background-color); outline-offset: -10px;" -->
+![](./images/color_palette_summertime.png) <!-- .element: style="width: auto; height: 20vh; margin: 0; aspect-ratio: 16/9; object-fit: cover; outline: 20px solid var(--r-background-color); outline-offset: -10px;" -->
 
 </div></div>
 
 [Energy efficient color palette ideas](https://greentheweb.com/energy-efficient-color-palette-ideas/)
-
----
-
-* Transfer Volume
-* CPU HTML > CSS > JS
-* GPU image formats
-* Screen OLED
-* SPA vs. HTMx vs. SSR
-* Old devices obsolete

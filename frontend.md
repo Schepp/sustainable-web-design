@@ -8,9 +8,7 @@ A performant website is an eco-friendly website
 
 ---
 
-## Reduce Page Weight
-
----
+## Page Weight
 
 ![](./images/median-page-weight-over-time.png)
 
@@ -46,13 +44,13 @@ Producing **1 kWh** of energy in Germany produces **229g CO²**.
 
 ![](./images/Fritzbox.png)
 
-Our household's data consumption in the last month: **1.323 Gigabytes**.
+Our household's **data consumption** in the last month: **1.323 Gigabytes**.
 
 ---
 
 ![](./images/Plane.jpg)
 
-Our household's digital carbon footprint in the last month: **245 kg** CO².
+Our household's **digital carbon footprint** in the last month: **245 kg** CO².
 
 That's **[like traveling 1.166 km by plane](https://www.quarks.de/umwelt/klimawandel/CO²-rechner-fuer-auto-flugzeug-und-co/)** every month.
 
@@ -82,7 +80,7 @@ Network Tab in Devtools
 
 ### Truth to be told: 
 
-Amount of data transferred is still just an approximation
+Amount of data transferred is still just an approximation for energy consumption
 
 ---
 
@@ -271,7 +269,7 @@ Byte for byte, **JavaScript hits a lot harder** than image data.
 
 ---
 
-### How much much energy is my JavaScript eating up?
+### Can I measure the energy impact of my JavaScript?
 
 ---
 
@@ -279,18 +277,17 @@ Byte for byte, **JavaScript hits a lot harder** than image data.
 
 ![](./images/Safari%20energy%20consumption.webp)
 
-It primarily focuses on CPU and is **directionally useful**, but doesn’t offer any numbers.
+It primarily focuses on CPU and is **directionally useful**, but doesn’t offer any specific numbers.
 
 ---
 
 Recently **Firefox** added real energy consumption profiling to its devtools!
 
-![](./images/Firefox%20energy%20profiler.webp)
+![](./images/Firefox%20energy%20profiler.webp) <!-- .element: style="height: 33vh" -->
 
-It uses power APIs available in  
-**Windows 10 & 11** as well as **macOS on Apple Silicon** devices.
+Firefox 104 supports **Windows 11** and **macOS on Apple Silicon** devices, Firefox 107 adds support for **Intel Mac** and **Linux**.
 
-[Measuring website energy consumption via browser profiling](https://www.devsustainability.com/p/measuring-website-energy-consumption)
+[Measuring website energy consumption via browser profiling](https://www.devsustainability.com/p/measuring-website-energy-consumption) / [Power profiling with the Firefox Profiler](https://fosdem.org/2023/schedule/event/energy_power_profiling_firefox/)
 
 ---
 
@@ -341,4 +338,4 @@ Old devices can still run your page well
 👉🏼 less incentive to upgrade  
 👉🏼 less waste!
 
-![](./images/Smartphone%20Waste.jpg)
+![](./images/ghanaelektropagjpg100~_v-ARDFotogalerie.jpg)

@@ -2,7 +2,7 @@
 
 ---
 
-## Use more Energy Efficient Languages
+## Certain server-Side Languages are more efficient than others
 
 ![](./images/code.jpg)
 
