@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="dist/theme/white.css">
 
   <!-- Theme used for syntax highlighted code -->
-  <link rel="stylesheet" href="plugin/highlight/monokai.css">
+  <link rel="stylesheet" href="plugin/highlight/zenburn.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&family=Vollkorn:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@
           For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
       -->
     </section>
-    <section data-markdown="what-is-sustainable-webdesign.md"
+    <section data-markdown="sustainable-web-design.md"
              data-separator="^-----\r?\n"
              data-separator-vertical="^---\r?\n"
              data-separator-notes="^Note:"
@@ -52,17 +52,7 @@
           For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
       -->
     </section>
-    <section data-markdown="measuring.md"
-             data-separator="^-----\r?\n"
-             data-separator-vertical="^---\r?\n"
-             data-separator-notes="^Note:"
-             data-charset="utf-8">
-      <!--
-          Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
-          For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
-      -->
-    </section>
-    <section data-markdown="design.md"
+    <section data-markdown="ui-design.md"
              data-separator="^-----\r?\n"
              data-separator-vertical="^---\r?\n"
              data-separator-notes="^Note:"
@@ -92,7 +82,7 @@
           For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
       -->
     </section>
-    <section data-markdown="development.md"
+    <section data-markdown="backend.md"
              data-separator="^-----\r?\n"
              data-separator-vertical="^---\r?\n"
              data-separator-notes="^Note:"
@@ -102,7 +92,7 @@
           For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
       -->
     </section>
-    <section data-markdown="activism.md"
+    <section data-markdown="going-beyond.md"
              data-separator="^-----\r?\n"
              data-separator-vertical="^---\r?\n"
              data-separator-notes="^Note:"
@@ -188,166 +178,6 @@
       },
     },
   });
-</script>
-<script>
-  (() => {
-    const update = () => {
-      const t=new Date();
-      const re=t.toLocaleString('de-DE');
-      const re2 = re.slice(11, 16);
-
-      document.querySelectorAll('.time').forEach((elem) => {
-        elem.textContent = re2;
-      });
-    }
-
-    window.setInterval(update, 1000);
-
-    update();
-  })();
-</script>
-<script src="js/tsparticles.bundle.min.js"></script>
-<script>
-  (async () => {
-    const container = await tsParticles
-      .load("tsparticles", {
-      "autoPlay": false,
-      "fullScreen": {
-        "zIndex": 1
-      },
-      "emitters": {
-        "position": {
-          "x": 50,
-          "y": 100
-        },
-        "rate": {
-          "quantity": 5,
-          "delay": 0.15
-        }
-      },
-      "particles": {
-        "color": {
-          "value": [
-            "#1E00FF",
-            "#FF0061",
-            "#E1FF00",
-            "#00FF9E"
-          ]
-        },
-        "move": {
-          "decay": 0.05,
-          "direction": "top",
-          "enable": true,
-          "gravity": {
-            "enable": true
-          },
-          "outModes": {
-            "top": "none",
-            "default": "destroy"
-          },
-          "speed": {
-            "min": 100,
-            "max": 200
-          }
-        },
-        "number": {
-          "value": 0
-        },
-        "opacity": {
-          "value": 1
-        },
-        "rotate": {
-          "value": {
-            "min": 0,
-            "max": 360
-          },
-          "direction": "random",
-          "animation": {
-            "enable": true,
-            "speed": 30
-          }
-        },
-        "tilt": {
-          "direction": "random",
-          "enable": true,
-          "value": {
-            "min": 0,
-            "max": 360
-          },
-          "animation": {
-            "enable": true,
-            "speed": 30
-          }
-        },
-        "size": {
-          "value": 10,
-          "animation": {
-            "enable": true,
-            "startValue": "min",
-            "count": 1,
-            "speed": 16,
-            "sync": true
-          }
-        },
-        "roll": {
-          "darken": {
-            "enable": true,
-            "value": 25
-          },
-          "enlighten": {
-            "enable": true,
-            "value": 25
-          },
-          "enable": true,
-          "speed": {
-            "min": 5,
-            "max": 15
-          }
-        },
-        "wobble": {
-          "distance": 30,
-          "enable": true,
-          "speed": {
-            "min": -7,
-            "max": 7
-          }
-        },
-        "shape": {
-          "type": [
-            "circle",
-            "square"
-          ],
-          "options": {}
-        }
-      },
-      "responsive": [
-        {
-          "maxWidth": 1024,
-          "options": {
-            "particles": {
-              "move": {
-                "speed": {
-                  "min": 33,
-                  "max": 66
-                }
-              }
-            }
-          }
-        }
-      ]
-    });
-
-    Reveal.addEventListener('ready', function(){
-      Reveal.addEventListener('slidechanged', function(){
-        if (Reveal.getCurrentSlide().querySelector(".particles")) {
-          container.refresh();
-          container.play();
-        } else {
-          container.stop();
-        }
-      });
-    });
-  })();
 </script>
 </body>
 </html>

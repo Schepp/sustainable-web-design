@@ -1,4 +1,4 @@
-## Frontend
+# Frontend
 
 ---
 
@@ -8,19 +8,127 @@ A performant website is an eco-friendly website
 
 ---
 
-### Reduce page weight
+## Reduce Page Weight
 
 ---
 
-<iframe title="Median page weight over time." class="fig-iframe" tabindex="-1" width="600" height="371" seamless="" frameborder="0" scrolling="no" loading="lazy" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS-yCXlRH7TMaQg1T2YsESIiUNe4BSga5NWwEElHgU3ZaNLXNauwAxsn3k_el5v1fxvtc_YA5k9i689/pubchart?oid=1631675184&amp;format=interactive"></iframe>
+![](./images/median-page-weight-over-time.png)
+
+[Web Almanac](https://almanac.httparchive.org/en/2022/page-weight)
 
 ---
 
-<iframe title="Median page weight by content type." class="fig-iframe" tabindex="-1" width="600" height="371" seamless="" frameborder="0" scrolling="no" loading="lazy" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS-yCXlRH7TMaQg1T2YsESIiUNe4BSga5NWwEElHgU3ZaNLXNauwAxsn3k_el5v1fxvtc_YA5k9i689/pubchart?oid=1961492622&amp;format=interactive"></iframe>
+**1 Gigabyte** of data transferred uses **0.81 kWh** of energy.
+
+![](./images/system-boundaries-swd-style.png)
+
+This factors in: consumer device use, network use, data center use and hardware production.
+
+[Calculating Digital Emissions](https://sustainablewebdesign.org/calculating-digital-emissions/)
 
 ---
 
-### Use a better image format
+![](./images/Eletricity%20Maps%20Germany.png)
+
+Producing **1 kWh** of energy in Germany produces **229g CO²**.
+
+[Electricity Maps](https://app.electricitymaps.com/zone/DE)
+
+---
+
+### Carbon Footprint of Data in Germany
+
+1 Gigabyte = 0.81 kWh &times; 229g CO² = **185g CO²**
+
+1 Megabyte = **0.18g CO²**
+
+---
+
+![](./images/Fritzbox.png)
+
+Our household's data consumption in the last month: **1.323 Gigabytes**.
+
+---
+
+![](./images/Plane.jpg)
+
+Our household's digital carbon footprint in the last month: **245 kg** CO².
+
+That's **[like traveling 1.166 km by plane](https://www.quarks.de/umwelt/klimawandel/CO²-rechner-fuer-auto-flugzeug-und-co/)** every month.
+
+---
+
+### Measuring the Footprint of a Webpage
+
+---
+
+![](./images/network%20tab%20summary.png)
+
+Network Tab in Devtools
+
+---
+
+<iframe src="https://www.websitecarbon.com/website/greenpeace-de/" style="width: 100%; height: 75vh"></iframe>
+
+[Website Carbon Calculator](https://www.websitecarbon.com/)
+
+---
+
+![](./images/Webpagetest%20Carbon%20Control.png)
+
+[Measure & Improve Your Site's Footprint with Carbon Control from Catchpoint WebPageTest](https://blog.webpagetest.org/posts/carbon-control/)
+
+---
+
+### Truth to be told: 
+
+Amount of data transferred is still just an approximation
+
+---
+
+![](./images/energy-consumption-providers.webp) <!-- .element: style="height: 25vh" -->
+
+> Network energy consumption **is not proportional to data transferred**. We can see this from statistics published by telecoms operators showing their network energy consumption decreased even as data volumes grew.
+
+[Measuring website energy consumption via browser profiling](https://www.devsustainability.com/p/measuring-website-energy-consumption)
+
+---
+
+<div class="r-hstack">
+
+<div style="flex: 1 1 66%">
+
+> The network is also not the largest source of energy consumption when looking at the system end to end. **The user device is often a large part of the environmental footprint** of a particular application. This varies significantly by device and also by application, but to take video streaming as a common application, the user device makes up ~50% of the total energy profile.
+
+[Measuring website energy consumption via browser profiling](https://www.devsustainability.com/p/measuring-website-energy-consumption)
+
+</div>
+
+![](./images/video-streaming-costs.webp) <!-- .element: style="flex: 1 1 33%" -->
+
+</div>
+
+---
+
+### But it's a good start
+
+---
+<!-- .slide: data-transition="fade" -->
+
+![](./images/median-page-weight-by-content-type.png)
+
+[Web Almanac](https://almanac.httparchive.org/en/2022/page-weight)
+
+---
+<!-- .slide: data-transition="fade" -->
+
+![](./images/median-page-weight-by-content-type-images.png)
+
+[Web Almanac](https://almanac.httparchive.org/en/2022/page-weight)
+
+---
+
+### Use a better Image Format
 
 ---
 
@@ -44,7 +152,40 @@ AVIF @ 40,811 bytes
 
 ---
 
-### AVIF is not always the best choice
+### What about the formats' energy consumptions?
+
+---
+
+Overall loading & decode energy consumption (shorter is better)  
+The longer the network is active the more energy is consumed
+
+![](./images/Greenspector%20image%20test.png)
+
+[Which image format choose to reduce energy consumption and environmental impact?](https://greenspector.com/en/which-image-format-to-choose-to-reduce-its-energy-consumption-and-its-environmental-impact/)
+
+---
+
+Energy consumption for decoding alone (shorter is better)
+
+![](./images/Greenspector%20image%20decoding%20energy.png)
+
+[Which image format choose to reduce energy consumption and environmental impact?](https://greenspector.com/en/which-image-format-to-choose-to-reduce-its-energy-consumption-and-its-environmental-impact/)
+
+---
+
+Throuput for encoding (higher is better)
+
+![](./images/Single_Threaded_TranscodeMPs_vs_Effort_SlowDefFast_900w.png)
+
+[Coding Comparisons](https://storage.googleapis.com/avif-comparison/subset1.html)
+
+---
+
+### The Winner Format: AVIF
+
+---
+
+### But AVIF is not always the best choice
 
 <table>
   <thead>
@@ -89,51 +230,67 @@ AVIF @ 40,811 bytes
   </tbody>
 </table>
 
-![](./images/Decoding%20and%20Rendering%20Speed%20combined.avif) <!-- .element style="height: 15vh; width: 70%; object-fit: cover; object-position: top center;" -->  
-![](./images/Image%20decoding%20legend.png) <!-- .element style="height: 5vh" -->
+![](./images/Decoding%20and%20Rendering%20Speed%20combined.avif) <!-- .element: style="height: 15vh; width: 70%; object-fit: cover; object-position: top center;" -->  
+![](./images/Image%20decoding%20legend.png) <!-- .element: style="height: 5vh" -->
 
 ---
 
-### What about the formats' energy consumptions?
+### Next big offender...
 
 ---
 
-Overall loading & decode energy consumption - the longer the network is active the more energy is consumed.
+JavaScript!
 
-![](./images/Greenspector%20image%20test.png)
+![](./images/median-page-weight-by-content-type-javascript.png)
 
-[Which image format choose to reduce energy consumption and environmental impact?](https://greenspector.com/en/which-image-format-to-choose-to-reduce-its-energy-consumption-and-its-environmental-impact/)
-
----
-
-Energy consumption for decoding alone
-
-![](./images/Greenspector%20image%20decoding%20energy.png)
-
-[Which image format choose to reduce energy consumption and environmental impact?](https://greenspector.com/en/which-image-format-to-choose-to-reduce-its-energy-consumption-and-its-environmental-impact/)
+[Web Almanac](https://almanac.httparchive.org/en/2022/page-weight)
 
 ---
 
-### Reduce JavaScript
+## Reduce JavaScript
 
 ---
 
-JavaScript hits the CPU multiple times:
+JavaScript **hits us multiple times**:
 
 ![](./images/JavaScript%20parse%20and%20compile.avif)
 
-* First with parse & compile costs, 
-* then with its execution cost. 
+* First the **network** with its **download**
+* then the **CPU** with **parse & compile** costs, 
+* and finally the **CPU** again with its **execution** costs. 
 
 [JavaScript Startup Optimization](https://web.dev/optimizing-content-efficiency-javascript-startup-optimization/)
 
 ---
 
-Byte for byte, JavaScript hits a lot harder than image data.
+Byte for byte, **JavaScript hits a lot harder** than image data.
 
 ![](./images/JavaScript%20vs%20Image.avif)
 
 [JavaScript Startup Optimization](https://web.dev/optimizing-content-efficiency-javascript-startup-optimization/)
+
+---
+
+### How much much energy is my JavaScript eating up?
+
+---
+
+**Safari** was the first browser to introduce tooling that measures energy impact.
+
+![](./images/Safari%20energy%20consumption.webp)
+
+It primarily focuses on CPU and is **directionally useful**, but doesn’t offer any numbers.
+
+---
+
+Recently **Firefox** added real energy consumption profiling to its devtools!
+
+![](./images/Firefox%20energy%20profiler.webp)
+
+It uses power APIs available in  
+**Windows 10 & 11** as well as **macOS on Apple Silicon** devices.
+
+[Measuring website energy consumption via browser profiling](https://www.devsustainability.com/p/measuring-website-energy-consumption)
 
 ---
 
@@ -145,7 +302,7 @@ Byte for byte, JavaScript hits a lot harder than image data.
 
 ---
 
-![](./images/Whats%20new%20in%20CSS%20and%20UI.avif) <!-- .element style="height: 25vh" -->
+![](./images/Whats%20new%20in%20CSS%20and%20UI.avif) <!-- .element: style="height: 25vh" -->
 
 > The past few months have ushered in a golden era for web UI. New platform capabilities have landed with tight cross-browser adoption that support more web capabilities and customization features than ever.
 
@@ -153,29 +310,35 @@ Byte for byte, JavaScript hits a lot harder than image data.
 
 ---
 
-### HTML > CSS > JavaScript
+### HTML > CSS > Browser APIs > JavaScript
 
-* ~Resize Observer~ CSS Container Queries
-* ~Styled Components~ CSS Scoped styles
-* ~`Math`~ CSS Trigonometric functions
-* ~popper.js~ HTML `popover` & CSS anchor positioning
-* ~Vue.js Transition~ View Transition API
+* ~Intersection Observer~ HTML's `loading="lazy"`
+* ~Resize Observer~ CSS's Container Queries
+* ~`Math`~ CSS's Trigonometric functions
+* ~popper.js~ HTML's `popover` & CSS's anchor positioning
+* ~Vue.js Transition~ Browser's View Transition API
 * ~Select2~ `<selectmenu>`
-* ~Greensock~ Scroll-driven animations
+* ~Greensock~ CSS's Scroll-driven animations
+* ~Luxon~ ECMAScript's Intl
 
 **Stay up to date with the Web Platform!**
 
 ---
 
+Case Study: Scroll-driven Animations
+
 ![](./images/scroll%20driven%20animations%20main%20thread.avif)
 
 [A case study on scroll-driven animations performance](https://developer.chrome.com/en/blog/scroll-animation-performance-case-study/)
 
+---
 
+### Another positive aspect of performant websites...
 
-* Transfer Volume
-* CPU HTML > CSS > JS
-* GPU image formats
-* Screen OLED
-* SPA vs. HTMx vs. SSR
-* Old devices obsolete
+---
+
+Old devices can still run your page well  
+👉🏼 less incentive to upgrade  
+👉🏼 less waste!
+
+![](./images/Smartphone%20Waste.jpg)

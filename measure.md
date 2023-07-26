@@ -4,6 +4,8 @@
 
 **1 Gigabyte** of data transferred uses **0.81 kWh** of energy.
 
+![](./images/system-boundaries-swd-style.png)
+
 This factors in: consumer device use, network use, data center use and hardware production.
 
 [Calculating Digital Emissions](https://sustainablewebdesign.org/calculating-digital-emissions/)
