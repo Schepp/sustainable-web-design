@@ -1,5 +1,6 @@
-* Follow the right people
-* Set "Perf" Budgets
+
+
+![](./images/Sustainable%20Web%20Design%20Book.png)
 
 https://sustainablewebdesign.org/
 https://green-the-web.podigee.io/

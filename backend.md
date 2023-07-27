@@ -26,7 +26,47 @@ Researchers ran energy tests of 27 programming languages, using standardized alg
 
 ---
 
-## Go for a more traditional server-side Architecture
+## Get closer to the metal
+
+![](./images/Butterfly.jpg)
+
+The less transformation layers in your stack the better.
+
+---
+
+![](./images/Container%20performance.webp)
+
+<small>SSVM = Second State WebAssembly VM = Runs (Rust code compiled to) WebAssembly</small>
+
+[Evaluation of software stack performance](https://www.infoq.com/articles/arm-vs-x86-cloud-performance/#:~:text=on%20GitHub.-,Less%20software%20bloat,-To%20preserve%20software)
+
+---
+
+## Choose more energy efficient hardware
+
+![](./images/CPU.jpg)
+
+---
+
+![](./images/Arm%20vs%20x86.png)
+
+> ARM processors are designed to have the lowest possible energy consumption while maintaining high processing power.
+
+[The next big thing – ARM architecture](https://www.layerstack.com/blog/the-next-big-thing-arm-architecture/)
+
+---
+
+### Where can you get ARM-based servers?
+
+* [Hetzner](https://www.golem.de/news/cloud-hosting-hetzner-vermietet-kleinere-und-guenstigere-arm-server-2304-173366.html)
+* [CloudFlare](https://blog.cloudflare.com/designing-edge-servers-with-arm-cpus/)
+* [Amazon EC2](https://aws.amazon.com/de/ec2/graviton/)
+* [Google Cloud](https://cloud.google.com/compute/docs/instances/arm-on-compute)
+* [Microsoft Azure](https://azure.microsoft.com/en-us/blog/azure-virtual-machines-with-ampere-altra-arm-based-processors-generally-available/)
+
+---
+
+## Go for a more traditional Program Architecture
 
 ---
 
