@@ -1,6 +1,6 @@
 :root {
   --r-main-font-size: 24px;
-  --r-link-color: #29a256;
+  --r-link-color: #177339;
   --r-link-color-dark: #2c8f51;
   --r-link-color-hover: #21ad55;
   --r-selection-background-color: #4ee184;
@@ -29,13 +29,12 @@
   width: auto;
   height: auto;
   max-width: 100%;
-  max-height: 50vh;
+  max-height: 40vh;
   border-radius: 4px;
 }
 
 .reveal a {
   text-decoration: underline;
-  text-decoration-color: oklch(90% 0.50 170);
   text-underline-offset: 3px;
   text-decoration-thickness: 2px;
 }
@@ -81,6 +80,7 @@
   position: relative;
   box-shadow: none;
   font-family: "Vollkorn", serif;
+  font-style: normal;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
@@ -103,7 +103,6 @@
   display: block;
   width: 70%;
   margin: var(--r-block-margin) auto;
-  font-style: italic;
   text-align: right;
 }
 

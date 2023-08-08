@@ -50,5 +50,35 @@
 
 ---
 
-## All this and more happened in one week
+### Reutlingen, Germany
+
+<video data-autoplay muted src="./videos/Reutlingen.mp4"></video>
+
+[Source](https://twitter.com/DrLuetke/status/1687680383205232640)
+
+---
+
+### Slovenia
+
+<video data-autoplay muted src="./videos/Slovenia.mp4"></video>
+
+[Source](https://twitter.com/visevic/status/1688112970566443008)
+
+---
+
+All this, and more, happened in just two and a half weeks!
+
+---
+
+At a time when **we need to be moving rapidly towards a zero-carbon economy**, our hunger for data and web services is growing ever greater as are our internet emissions.
+
+![](./images/Chart%20upwards.jpg) <!-- .element: style="height: 33vh" -->
+
+Communication technology made up for [**14 percent**]((https://www.sciencedirect.com/science/article/abs/pii/S095965261733233X)) of the global greenhouse emissions **in 2020**.
+
+---
+
+![](./images/country-ranking.png)
+
+Data for 2018 shows that when viewed as a whole, **the internet is equivalent to one of the world's most polluting countries**.
 
