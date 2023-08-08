@@ -4,11 +4,15 @@
 
 ![](./images/green-hosting.jpg) <!-- .element: style="height: 33vh" -->
 
-You can do that for your hosting!
+Pick a green hoster!
 
 ---
 
 ⚠️But beware of Green Washing!
+
+Read between the lines.
+
+---
 
 There are two distinct strategies data centers employ:
 
