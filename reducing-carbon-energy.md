@@ -8,7 +8,7 @@ Pick a green hoster!
 
 ---
 
-⚠️But beware of Green Washing!
+⚠️But there are big differences in being "Green"!
 
 🔎 Read between the lines.
 
