@@ -10,7 +10,7 @@ Pick a green hoster!
 
 ⚠️But beware of Green Washing!
 
-Read between the lines.
+🔎 Read between the lines.
 
 ---
 
