@@ -8,9 +8,7 @@ Pick a green hoster!
 
 ---
 
-⚠️But there are big differences in being "Green"!
-
-🔎 Read between the lines.
+⚠️But beware, there are big differences in being "Green"!
 
 ---
 
