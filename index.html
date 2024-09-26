@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -148,6 +148,26 @@
       },
     },
   });
+
+  Reveal.on('fragmentshown', function( event ) {
+    const slide = event.fragment.closest('[data-fragment]');
+    const fragmentIndex = slide.getAttribute('data-fragment');
+    const video = slide.querySelector(`video[data-fragment-index="${fragmentIndex}"]`);
+
+    if( video ) {
+      video.play();
+    }
+  } );
+  
+  Reveal.on('fragmenthidden', function( event ) {
+    const slide = event.fragment.closest('[data-fragment]');
+    const fragmentIndex = slide.getAttribute('data-fragment');
+    const videos = slide.querySelectorAll(`video[data-fragment-index]:not(.visible)`);
+
+    if( videos && videos.length ) {
+      videos.forEach((video) => video.pause());
+    }
+  } );
 </script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>

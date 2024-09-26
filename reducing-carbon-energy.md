@@ -8,7 +8,7 @@ Pick a green hoster!
 
 ---
 
-⚠️But beware, there are big differences in being "Green"!
+⚠️ But beware, there are big differences in being "Green"!
 
 ---
 
@@ -81,19 +81,23 @@ But... <!-- .element class="fragment" -->
 
 ---
 
+![](./images/chernobyl.jpg) <!-- .element: style="height: 33vh" -->
+
 Is it really okay to create nuclear waste that takes 300.000 years to decompose for a few years worth of energy?
 
 ---
 
 ![](./images/7259-constructing-memory-2015-cover.png) <!-- .element: style="height: 33vh; border: 1px solid #ccc" -->
 
-How do we even warn people in the next 300.000 upcoming years of nuclear waste?
+How do we even warn people in the 300.000 upcoming years of nuclear waste?
+
+Will they even speak our language?
 
 ---
 
 ## Buying 100% renewable energy ⭐⭐⭐
 
-A company **matches like-for-like** rather than matching emissions for emissions. Its buys as much renewable energy to match all its energy usage.
+A company **matches like-for-like** rather than matching emissions for emissions. It buys as much renewable energy to match all its energy usage.
 
 ![](./images/top-corporate-purchases-renewables_hu11a92e5d6d5d4c6c36cbde240080a476_26072_1320x0_resize_box_3.png) <!-- .element: style="height: 33vh" -->
 

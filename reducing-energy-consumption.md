@@ -2,11 +2,11 @@
 
 ---
 
-There parts of our product lifecycle reduce energy:
+These aspects of digital products impact energy consumption:
 
 * 📦 Data transport
 * ⚙️Logic / data processing
-* 🖥️ Displays
+* 🖥️ Displaying
 
 ---
 
@@ -36,7 +36,8 @@ This factors in:
 
 ![](./images/Eletricity%20Maps%20Germany.png) <!-- .element: style="border: 1px solid #ccc" -->
 
-Producing **1 kWh** of energy in Germany produces **229g CO²**.
+Producing **1 kWh** of energy in Germany created **372g CO²** on average 
+in 2023.
 
 [Electricity Maps](https://app.electricitymaps.com/zone/DE)
 
@@ -44,23 +45,23 @@ Producing **1 kWh** of energy in Germany produces **229g CO²**.
 
 ### Carbon Footprint of Data in Germany
 
-1 Gigabyte = 0.81 kWh &times; 229g CO² = **185g CO²**
+1 Gigabyte = 0.81 kWh &times; 372g CO² = **301g CO²**
 
-1 Megabyte = **0.18g CO²**
+1 Megabyte = **0.30g CO²**
 
 ---
 
 ![](./images/Fritzbox.png) <!-- .element: style="border: 1px solid #ccc" -->
 
-Our household's **data consumption** in the last month: **1.323 Gigabytes**.
+Our household's **data consumption** in one month: **1.323 Gigabytes**.
 
 ---
 
 ![](./images/Plane.jpg)
 
-Our household's **digital carbon footprint** in the last month: **245 kg** CO².
+Our household's **digital carbon footprint** in one month: **398 kg** CO².
 
-That's **[like traveling 1.166 km by plane](https://www.quarks.de/umwelt/klimawandel/CO2-rechner-fuer-auto-flugzeug-und-co/)** every month.
+That's **[like traveling 1.666 km by plane](https://www.quarks.de/umwelt/klimawandel/CO2-rechner-fuer-auto-flugzeug-und-co/)** every month.
 
 ---
 
@@ -82,7 +83,7 @@ Network Tab in Devtools
 
 ---
 
-<iframe src="https://www.websitecarbon.com/website/greenpeace-de/" style="width: 100%; height: 75vh"></iframe>
+<iframe src="https://www.websitecarbon.com/website/greenpeace-de/" style="width: 100%; height: 50vh"></iframe>
 
 [Website Carbon Calculator](https://www.websitecarbon.com/)
 
@@ -302,7 +303,9 @@ Researchers ran energy tests of 27 programming languages, using standardized alg
 
 ![](./images/Efficiency%20of%20programming%20languages.png) <!-- .element: style="height: 33vh" -->
 
-**Compiled languages fare hugely better** than interpreted languages (with the exception of Java)
+**Compiled languages fare hugely better** than interpreted languages  
+(with the exception of Java & JavaScript)
+
 
 ---
 
@@ -326,7 +329,8 @@ Also: The **less transformation layers** in your stack the better.
 
 ---
 
-Let your next **development machine** be a Mac!
+Let your next **development machine** be a Mac!  
+(or a "Snapdragon X" laptop for that matter)
 
 ![](./images/Apple%20Macbook.jpg) <!-- .element: style="height: 15vh" -->
 

@@ -2,71 +2,90 @@
 
 ---
 
+## 2023
+
+<div class="r-stack">
+
 ### Zaragoza, Spain
+
+### Rhodes, Greece <!-- .element: class="fragment" data-fragment-index="1" -->
+
+### Sicily, Italy <!-- .element: class="fragment" data-fragment-index="2" -->
+
+### Seregno, Italy <!-- .element: class="fragment" data-fragment-index="3" -->
+
+</div>
+
+<div class="r-hstack fragments-invisible">
 
 <video data-autoplay muted src="./videos/Meanwhile%20in%20%23Saragossa%20%23Zaragoza%20SpanienNach%20Ausk.mp4"></video>
 
+<video data-autoplay muted src="./videos/Don’t%20look%20up.mp4" class="fragment" data-fragment-index="1"></video>
+
+<video data-autoplay muted src="./videos/literally%20no%20media%20outlet%20is%20covering%20this%20.%20The%20s.mp4" class="fragment" data-fragment-index="2"></video>
+
+<video data-autoplay muted src="./videos/This%20is%20the%20massive%20hail%20flow%20generated%20by%20the%20vio.mp4" class="fragment" data-fragment-index="3"></video>
+
+</div>
+
+<div class="r-stack">
+
 [Source](https://twitter.com/Anonymous9775/status/1677350843526402055)
 
----
+[Source](https://twitter.com/Hoellenaufsicht/status/1683432293866643457) <!-- .element: class="fragment" data-fragment-index="1" -->
 
-### Rhodes, Greece
+[Source](https://twitter.com/Hoellenaufsicht/status/1683432293866643457) <!-- .element: class="fragment" data-fragment-index="2" -->
 
-<video data-autoplay muted src="./videos/Don’t%20look%20up.mp4"></video>
+[Source](https://twitter.com/Rainmaker1973/status/1682473249538560000) <!-- .element: class="fragment" data-fragment-index="3" -->
 
-[Source](https://twitter.com/Hoellenaufsicht/status/1683432293866643457)
+</div>
 
----
-
-### Sicily, Italy
-
-<video data-autoplay muted src="./videos/literally%20no%20media%20outlet%20is%20covering%20this%20.%20The%20s.mp4"></video>
-
-[Source](https://twitter.com/Hoellenaufsicht/status/1683432293866643457)
 
 ---
 
-### Seregno, Italy
+## 2024
 
-<video data-autoplay muted src="./videos/This%20is%20the%20massive%20hail%20flow%20generated%20by%20the%20vio.mp4"></video>
+<div class="r-stack">
 
-[Source](https://twitter.com/Rainmaker1973/status/1682473249538560000)
+### Portugal
+
+### Budapest, Hungary <!-- .element: class="fragment" data-fragment-index="1" -->
+
+### Türkiye <!-- .element: class="fragment" data-fragment-index="2" -->
+
+### South Africa <!-- .element: class="fragment" data-fragment-index="3" -->
+
+</div>
+
+<div class="r-hstack fragments-invisible">
+
+<video data-autoplay muted src="./videos/twitsave.com_LKiAKrNEV9vYNWdM.mp4"></video>
+
+<video data-autoplay muted src="./videos/twitsave.com_CUkxb-J6MgIJqjLJ.mp4" class="fragment-replace"></video>
+
+<video data-autoplay muted src="./videos/twitsave.com_gn4z5YgUuzmuVUAo.mp4" class="fragment" data-fragment-index="1"></video>
+
+<video data-autoplay muted src="./videos/twitsave.com_aXppyXmGrMvSM-xo.mp4" class="fragment" data-fragment-index="2"></video>
+
+<video data-autoplay muted src="./videos/twitsave.com_diX1kev1XWyT3xSR.mp4" class="fragment" data-fragment-index="3"></video>
+
+</div>
+
+<div class="r-stack">
+
+[Source](https://twitter.com/Anonymous9775/status/1677350843526402055)
+
+[Source](https://x.com/Weathermonitors/status/1836808756430053684?t=lvM5JaUKaSul-iyd9Uhv3Q) <!-- .element: class="fragment" data-fragment-index="1" -->
+
+[Source](https://x.com/99blackbaloons/status/1837366951489798625?t=UEqglzesM8kjuE9-yCRd3A) <!-- .element: class="fragment" data-fragment-index="2" -->
+
+[Source](https://x.com/Anonymous00708/status/1838085780993982888?t=J5buwtr88MDkIF7AI3dXyg) <!-- .element: class="fragment" data-fragment-index="3" -->
+
+</div>
 
 ---
 
-### Novigrad, Croatia
-
-<video data-autoplay muted src="./videos/Storm%20aftermath%20%23novigrad.mp4"></video>
-
-[Source](https://twitter.com/basti_uhl/status/1682419067926335488)
-
----
-
-### Locle, Switzerland
-
-<video data-autoplay muted src="./videos/Véritable%20chaos%20au%20Locle,%20près%20d.mp4"></video>
-
-[Source](https://twitter.com/basti_uhl/status/1682419067926335488)
-
----
-
-### Reutlingen, Germany
-
-<video data-autoplay muted src="./videos/Reutlingen.mp4"></video>
-
-[Source](https://twitter.com/DrLuetke/status/1687680383205232640)
-
----
-
-### Slovenia
-
-<video data-autoplay muted src="./videos/Slovenia.mp4"></video>
-
-[Source](https://twitter.com/visevic/status/1688112970566443008)
-
----
-
-All this, and more, happened in just two and a half weeks!
+All this, and more, happened within two and a half weeks!
 
 ---
 

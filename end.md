@@ -18,6 +18,7 @@ Websites:
 * [devsustainability.com](https://www.devsustainability.com/)
 * [positive-internet.com](https://positive-internet.com/)
 * [wholegraindigital.com](https://www.wholegraindigital.com/)
+* [greentheweb.com](https://greentheweb.com/)
 
 ---
 
@@ -32,6 +33,8 @@ People:
 
 * [Fershad Irani](https://fershad.com/)
 * [David Mytton](https://davidmytton.blog/)
+* [Sandy Dähnert](https://www.sandydaehnert.de/)
+* [Arne Tarara](https://www.linkedin.com/in/arne-tarara)
 
 ---
 

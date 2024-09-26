@@ -18,10 +18,14 @@
   text-wrap: balance;
 }
 
-.reveal img,
-.reveal iframe:not([data-tweet-id]) {
+.reveal img:not([style*="width"]):not([style*="height"]),
+.reveal iframe:not([data-tweet-id]):not([style*="width"]):not([style*="height"]) {
   max-width: 100%;
   max-height: 40vh;
+}
+
+.reveal img,
+.reveal iframe:not([data-tweet-id]) {
   border-radius: 4px;
 }
 
@@ -158,4 +162,48 @@
 
 .reveal .twitter-tweet {
   margin-inline: auto;
+}
+
+.reveal .fragments-invisible .fragment,
+.reveal .fragment-replace {
+  object-fit: cover;
+  transition-property: max-width;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+}
+
+.reveal .fragments-invisible .fragment,
+.reveal [data-fragment="-1"] p:has(.fragment-replace),
+.reveal [data-fragment="-1"] .fragment-replace {
+  display: block;
+  max-width: 100vw !important;
+}
+
+.reveal .fragments-invisible .fragment:not(.visible),
+.reveal .fragment-replace {
+  max-width: 0 !important;
+}
+
+.reveal .fragments-invisible p:has(.fragment:not(.visible)),
+.reveal p:has(.fragment-replace),
+.reveal .fragment-replace {
+  display: none !important;
+}
+
+.reveal .r-hstack p:has(video) {
+  display: flex;
+  align-self: stretch;
+}
+
+.reveal .r-hstack p video {
+  align-self: stretch;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.reveal .r-stack .fragment {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  line-height: 1.2;
 }
