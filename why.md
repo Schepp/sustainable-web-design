@@ -85,10 +85,6 @@
 
 ---
 
-All this, and more, happened within two and a half weeks!
-
----
-
 At a time when **we need to be moving rapidly towards a zero-carbon economy**, our hunger for data and web services is growing ever greater as are our internet emissions.
 
 ![](./images/Chart%20upwards.jpg) <!-- .element: style="height: 33vh" -->

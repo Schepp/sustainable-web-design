@@ -2,6 +2,7 @@ Sustainable Web Design
 ======
 
 Talk Slides: [schepp.github.io/sustainable-web-design](https://schepp.github.io/sustainable-web-design/)
+Präsentation: [schepp.github.io/sustainable-web-design/index.de.html](https://schepp.github.io/sustainable-web-design/index.de.html)
 
 ---
 
