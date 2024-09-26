@@ -53,7 +53,7 @@ in 2023.
 
 ![](./images/Fritzbox.png) <!-- .element: style="border: 1px solid #ccc" -->
 
-Our household's **data consumption** in one month: **1.323 Gigabytes**.
+Our household's **data consumption** in one month: **1,323 Gigabytes**.
 
 ---
 
@@ -61,7 +61,7 @@ Our household's **data consumption** in one month: **1.323 Gigabytes**.
 
 Our household's **digital carbon footprint** in one month: **398 kg** CO².
 
-That's **[like traveling 1.666 km by plane](https://www.quarks.de/umwelt/klimawandel/CO2-rechner-fuer-auto-flugzeug-und-co/)** every month.
+That's **[like traveling 1,666 km by plane](https://www.quarks.de/umwelt/klimawandel/CO2-rechner-fuer-auto-flugzeug-und-co/)** every month.
 
 ---
 
