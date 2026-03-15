@@ -1,5 +1,11 @@
 ## That's all!
 
+Thank you <3
+
+![](./images/qr-code.svg) <!-- .element: width="600" height="600" -->
+
+Slides: [schepp.github.io/sustainable-web-design](schepp.github.io/sustainable-web-design)
+
 ---
 
 ### Wanna go deeper?
